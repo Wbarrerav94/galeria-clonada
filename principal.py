@@ -8,15 +8,6 @@ from bson import ObjectId
 from flask_mail import Mail, Message
 
 
-DOCUMENTOS = ["doc", "docs"]
-
-def usuario():
-    pass
-
-def password():
-    pass
-
-
 EXTENSIONES = ["png", "jpg", "jpeg"]
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = "./static/fondos"
